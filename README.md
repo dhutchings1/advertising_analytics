@@ -5,9 +5,9 @@ Advertising Analytics Dashboard: https://dhutchings.shinyapps.io/advertising_ana
 ## Overview
 This project was designed to explore advertising data and create value adding recommendations and observations. I stored the data in Google BigQuery so that I could perform fast and efficient queries of the roughly 400,000 rows. To assist in my data analysis, I built an advertising analytics dashboard using R Shiny, which provided me with a great starting point to examine the data. I then built a regression model to evaluate how the different devices the ads ran on impacted conversions. My recommendations and observations are based on a combination of the dashboard and regression results. 
 
-sql.ipynb - sql queries that were used to create the data tables used in the advertising analytics dashboard
-advertising_regression.ipynb - regression results
-advertising_analytics_shiny_app - folder that contains the contents of R Shiny app
+#### sql.ipynb - sql queries that were used to create the data tables used in the advertising analytics dashboard
+#### advertising_regression.ipynb - regression results
+#### advertising_analytics_shiny_app - folder that contains the contents of R Shiny app
 
 ## Recommendations
 
