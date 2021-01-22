@@ -30,3 +30,21 @@ I observed a sharp increase in daily impressions and publisher split costs in mi
 
 ### Local peak in daily conversions around black friday (11/26 - 11/29)
 This is expected because the advertised product was likely hosting sales around that time
+
+## Regression Summary
+### Introduction
+The goal of the regression was to analyze the statistical relationship between the different devices and conversions. By including month dummy variables in the regression, I hoped to remove temporal effects from the model so that I could fairly analyze the impacts of device type on conversions.
+### Variables
+Dependent variable: Daily total conversions
+Independent variables:
+1. daily desktop impressions
+2. daily mobile impressions
+3. daily tablet impressions
+4. daily other impressions
+5. month November dummy variable
+6. month December dummy variable
+7. month January dummy variable
+### Interpreting Results
+Intuition says that increasing the number of impressions in a day, no matter the device, should result in more daily conversions. Thus, I expected all of the device variables to have a positive coefficient (they did). My goal was to test which device has the greatest, positive impact on daily conversions. The results of the regression confirmed my earlier analysis that Desktop ads are the most effective in generating conversions. The interpretation of the coefficient is that increasing the number of daily Desktop impressions by 100,000 results in ~5.6 more daily conversions.
+
+
